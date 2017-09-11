@@ -124,334 +124,335 @@ html, body
         width: 100%
         display: block
         
-        .cake-smash
-            position: relative
-            height: 50%
-            width: 50%
-            display: inline-block
-            background-image: url("../img/cakesmash.jpg")
-            background-position: center center
-            background-repeat: no-repeat
-            background-size: cover
-            float: left
-            text-align: center
+        .container-fluid
+            height: 100%
+            width: 100%
+            margin: 0
+            padding: 0
             
-            .box1
-                position: absolute
+            .col-sm-6
                 height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.1)
-                text-align: center
-                display: flex
-                align-items: center
-                justify-content: center
-                transition: all 1s
-            
-                h2
-                    position: absolute
-                    width: 200px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -100px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p
-                    visibility: hidden
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    
-            .box1:hover
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.5)
-                justify-content: center
-                
-                h2
-                    position: absolute
-                    width: 200px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -100px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p 
-                    visibility: visible
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    animation-name: slideInUp
+                width: 50%
+                display: inline-block
+                white-space: nowrap
+                overflow: hidden
+                padding: 0
+                margin-bottom: -5px
         
-        .pets
-            position: relative
-            height: 50%
-            width: 50%
-            display: inline-block
-            background-image: url("../img/pets.jpg")
-            background-position: center center
-            background-repeat: no-repeat
-            background-size: cover
-            float: right
+                .cake-smash
+                    position: relative
+                    height: 50%
+                    width: 100%
+                    display: block
+                    background-image: url("../img/cakesmash.jpg")
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
+                    text-align: center
+
+                    .box1
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.1)
+                        text-align: center
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        transition: all 1s
+
+                        h2
+                            position: absolute
+                            width: 200px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -100px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p
+                            position: absolute
+                            visibility: hidden
+                            color: #fff
+                            padding: 20px
+                            width: 300px
+                            height: 200px
+                            margin-left: -150px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+
+                    .box1:hover
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.5)
+                        justify-content: center
+
+                        h2
+                            position: absolute
+                            width: 200px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -100px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p 
+                            visibility: visible
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+                            animation-name: slideInUp
+
+                .pets
+                    position: relative
+                    height: 50%
+                    width: 100%
+                    display: block
+                    background-image: url("../img/pets.jpg")
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
+
+                    .box2
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.1)
+                        text-align: center
+                        transition: all 1s
+
+                        h2
+                            position: absolute
+                            width: 150px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -75px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p
+                            visibility: hidden
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+
+                    .box2:hover
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.5)
+                        justify-content: center
+
+                        h2
+                            position: absolute
+                            width: 150px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -75px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p 
+                            visibility: visible
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+                            animation-name: slideInUp
+
+                .newborn
+                    position: relative
+                    height: 50%
+                    width: 100%
+                    display: block
+                    background-image: url("../img/newborn.jpg")
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
+
+                    .box3
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.1)
+                        text-align: center
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        transition: all 1s
+
+                        h2
+                            position: absolute
+                            width: 200px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -100px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p
+                            visibility: hidden
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+
+                    .box3:hover
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.5)
+                        justify-content: center
+
+                        h2
+                            position: absolute
+                            width: 150px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -75px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p 
+                            visibility: visible
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+                            animation-name: slideInUp
+
+                .portraits
+                    position: relative
+                    height: 50%
+                    width: 100%
+                    display: block
+                    background-image: url("../img/portrait.jpg")
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
+
+                    .box4
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.1)
+                        text-align: center
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        transition: all 1s
+
+                        h2
+                            position: absolute
+                            width: 200px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -100px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p
+                            visibility: hidden
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+
+                    .box4:hover
+                        position: absolute
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.5)
+                        justify-content: center
+
+                        h2
+                            position: absolute
+                            width: 150px
+                            height: 100px
+                            margin-top: -25px
+                            margin-left: -75px
+                            top: 50%
+                            left: 50%
+                            color: #fff
+                            line-height: normal
+
+                        p 
+                            visibility: visible
+                            color: #fff
+                            padding: 20px
+                            position: absolute
+                            width: 400px
+                            height: 200px
+                            margin-left: -200px
+                            margin-top: -100px
+                            top: 90%
+                            left: 50%
+                            animation-name: slideInUp
+                            
+    @media screen and (max-width: 800px)
+        #projects
+            height: 200%
+            widht: 100%
             
-            .box2
-                position: absolute
+            .container-fluid
                 height: 100%
                 width: 100%
-                background-color: rgba(0,0,0,0.1)
-                text-align: center
-                transition: all 1s
             
-                h2
-                    position: absolute
-                    width: 150px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -75px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p
-                    visibility: hidden
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
+                .col-sm-6
+                    height: 50%
+                    width: 100%
                     
-            .box2:hover
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.5)
-                justify-content: center
-                
-                h2
-                    position: absolute
-                    width: 150px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -75px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p 
-                    visibility: visible
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    animation-name: slideInUp
-                
-        .newborn
-            position: relative
-            height: 50%
-            width: 50%
-            display: inline-block
-            background-image: url("../img/newborn.jpg")
-            background-position: center center
-            background-repeat: no-repeat
-            background-size: cover
-            float: right
-            
-            .box3
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.1)
-                text-align: center
-                display: flex
-                align-items: center
-                justify-content: center
-                transition: all 1s
-            
-                h2
-                    position: absolute
-                    width: 200px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -100px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p
-                    visibility: hidden
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    
-            .box3:hover
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.5)
-                justify-content: center
-                
-                h2
-                    position: absolute
-                    width: 150px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -75px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p 
-                    visibility: visible
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    animation-name: slideInUp
-            
-        .portraits
-            position: relative
-            height: 50%
-            width: 50%
-            display: inline-block
-            background-image: url("../img/portrait.jpg")
-            background-position: center center
-            background-repeat: no-repeat
-            background-size: cover
-            float: left
-            
-            .box4
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.1)
-                text-align: center
-                display: flex
-                align-items: center
-                justify-content: center
-                transition: all 1s
-        
-                h2
-                    position: absolute
-                    width: 200px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -100px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p
-                    visibility: hidden
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    
-            .box4:hover
-                position: absolute
-                height: 100%
-                width: 100%
-                background-color: rgba(0,0,0,0.5)
-                justify-content: center
-                
-                h2
-                    position: absolute
-                    width: 150px
-                    height: 100px
-                    margin-top: -25px
-                    margin-left: -75px
-                    top: 50%
-                    left: 50%
-                    color: #fff
-                    line-height: normal
-
-                p 
-                    visibility: visible
-                    color: #fff
-                    padding: 20px
-                    position: absolute
-                    width: 400px
-                    height: 200px
-                    margin-left: -200px
-                    margin-top: -100px
-                    top: 90%
-                    left: 50%
-                    animation-name: slideInUp
-                    
-    @media screen and (max-width: 440px)
-        .cake-smash
-            
-            h2
-                position: absolute
-                width: 150px
-                height: 100px
-                margin-top: -25px
-                margin-left: -75px
-                top: 30%
-                left: 50%
-                color: #fff
-                line-height: normal
-
-            p
-                visibility: hidden
-                color: #fff
-                padding: 20px
-                position: absolute
-                width: 200px
-                height: 200px
-                margin-left: -100px
-                margin-top: -100px
-                top: 70%
-                left: 50%
-
+                    .cake-smash, .pets, .newborn, .portraits
+                        width: 100%
+    
     #services
         height: auto
         margin-top: 100px
