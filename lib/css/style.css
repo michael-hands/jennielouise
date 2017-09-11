@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Roboto"; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0; }
+  html #home, body #home {
+    position: relative;
+    height: 700px;
+    background-image: url("/lib/img/home.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-animation: breath 10s linear infinite;
+    animation: breath 10s linear infinite; }
+
+@-webkit-keyframes breath {
+  0% {
+    background-size: 100% auto; }
+  50% {
+    background-size: 110% auto; }
+  100% {
+    background-size: 100% auto; } }
+
+@keyframes breath {
+  0% {
+    background-size: 100% auto; }
+  50% {
+    background-size: 110% auto; }
+  100% {
+    background-size: 100% auto; } }
+    html #home .nav, body #home .nav {
+      width: 100%;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: block; }
+      html #home .nav a, body #home .nav a {
+        float: right;
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+        text-decoration: none;
+        padding: 15px 30px 0 0;
+        line-height: 20px;
+        font-family: "Roboto";
+        display: block; }
+    html #home .banner, body #home .banner {
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      top: 50%;
+      margin-top: -100px; }
+      html #home .banner .logo, body #home .banner .logo {
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%; }
+        html #home .banner .logo img, body #home .banner .logo img {
+          max-width: 400px;
+          margin: 0 auto; }
+    html #home .arrow-down, body #home .arrow-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      margin-left: -25px;
+      width: 50px;
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+      html #home .arrow-down img, body #home .arrow-down img {
+        width: 20px; }
+  @media screen and (max-width: 830px) {
+    html #home, body #home {
+      background-image: url("/lib/img/home2.jpg");
+      background-position: center top; } }
+  html #welcome, body #welcome {
+    height: auto;
+    width: 100%;
+    padding: 100px; }
+    html #welcome hr, body #welcome hr {
+      width: 300px;
+      border-color: #666; }
+    html #welcome h1, body #welcome h1 {
+      margin: 50px 0 50px;
+      text-align: center; }
+    html #welcome p, body #welcome p {
+      padding-top: 50px;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 100px; }
+  @media screen and (max-width: 600px) {
+    html #welcome, body #welcome {
+      padding: 50px; }
+      html #welcome p, body #welcome p {
+        width: 300px; } }
+  html #projects, body #projects {
+    height: 100%;
+    width: 100%;
+    display: block; }
+    html #projects .cake-smash, body #projects .cake-smash {
+      position: relative;
+      height: 50%;
+      width: 50%;
+      display: inline-block;
+      background-image: url("/lib/img/cakesmash.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      text-align: center; }
+      html #projects .cake-smash .box1, body #projects .cake-smash .box1 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .cake-smash .box1 h2, body #projects .cake-smash .box1 h2 {
+          position: absolute;
+          width: 200px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -100px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .cake-smash .box1 p, body #projects .cake-smash .box1 p {
+          visibility: hidden;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+      html #projects .cake-smash .box1:hover, body #projects .cake-smash .box1:hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .cake-smash .box1:hover h2, body #projects .cake-smash .box1:hover h2 {
+          position: absolute;
+          width: 200px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -100px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .cake-smash .box1:hover p, body #projects .cake-smash .box1:hover p {
+          visibility: visible;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+    html #projects .pets, body #projects .pets {
+      position: relative;
+      height: 50%;
+      width: 50%;
+      display: inline-block;
+      background-image: url("/lib/img/pets.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: right; }
+      html #projects .pets .box2, body #projects .pets .box2 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
+        html #projects .pets .box2 h2, body #projects .pets .box2 h2 {
+          position: absolute;
+          width: 150px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -75px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .pets .box2 p, body #projects .pets .box2 p {
+          visibility: hidden;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+      html #projects .pets .box2:hover, body #projects .pets .box2:hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .pets .box2:hover h2, body #projects .pets .box2:hover h2 {
+          position: absolute;
+          width: 150px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -75px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .pets .box2:hover p, body #projects .pets .box2:hover p {
+          visibility: visible;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+    html #projects .newborn, body #projects .newborn {
+      position: relative;
+      height: 50%;
+      width: 50%;
+      display: inline-block;
+      background-image: url("/lib/img/newborn.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: right; }
+      html #projects .newborn .box3, body #projects .newborn .box3 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .newborn .box3 h2, body #projects .newborn .box3 h2 {
+          position: absolute;
+          width: 200px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -100px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .newborn .box3 p, body #projects .newborn .box3 p {
+          visibility: hidden;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+      html #projects .newborn .box3:hover, body #projects .newborn .box3:hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .newborn .box3:hover h2, body #projects .newborn .box3:hover h2 {
+          position: absolute;
+          width: 150px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -75px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .newborn .box3:hover p, body #projects .newborn .box3:hover p {
+          visibility: visible;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+    html #projects .portraits, body #projects .portraits {
+      position: relative;
+      height: 50%;
+      width: 50%;
+      display: inline-block;
+      background-image: url("/lib/img/portrait.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left; }
+      html #projects .portraits .box4, body #projects .portraits .box4 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .portraits .box4 h2, body #projects .portraits .box4 h2 {
+          position: absolute;
+          width: 200px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -100px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .portraits .box4 p, body #projects .portraits .box4 p {
+          visibility: hidden;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+      html #projects .portraits .box4:hover, body #projects .portraits .box4:hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        html #projects .portraits .box4:hover h2, body #projects .portraits .box4:hover h2 {
+          position: absolute;
+          width: 150px;
+          height: 100px;
+          margin-top: -25px;
+          margin-left: -75px;
+          top: 50%;
+          left: 50%;
+          color: #fff;
+          line-height: normal; }
+        html #projects .portraits .box4:hover p, body #projects .portraits .box4:hover p {
+          visibility: visible;
+          color: #fff;
+          padding: 20px;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          margin-left: -200px;
+          margin-top: -100px;
+          top: 90%;
+          left: 50%; }
+  @media screen and (max-width: 440px) {
+    html .cake-smash h2, body .cake-smash h2 {
+      position: absolute;
+      width: 150px;
+      height: 100px;
+      margin-top: -25px;
+      margin-left: -75px;
+      top: 30%;
+      left: 50%;
+      color: #fff;
+      line-height: normal; }
+    html .cake-smash p, body .cake-smash p {
+      visibility: hidden;
+      color: #fff;
+      padding: 20px;
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      margin-left: -100px;
+      margin-top: -100px;
+      top: 70%;
+      left: 50%; } }
+  html #services, body #services {
+    height: auto;
+    margin-top: 100px; }
+    html #services h1, body #services h1 {
+      text-align: center; }
+    html #services hr, body #services hr {
+      width: 300px;
+      border-color: #666; }
+    html #services .container-fluid, body #services .container-fluid {
+      margin: 50px 0 100px; }
+      html #services .container-fluid .col-md-4, body #services .container-fluid .col-md-4 {
+        text-align: left;
+        margin-bottom: 20px; }
+        html #services .container-fluid .col-md-4 .photoshoots, html #services .container-fluid .col-md-4 .props, html #services .container-fluid .col-md-4 .editing, body #services .container-fluid .col-md-4 .photoshoots, body #services .container-fluid .col-md-4 .props, body #services .container-fluid .col-md-4 .editing {
+          padding: 20px;
+          border: solid #666 1px; }
+          html #services .container-fluid .col-md-4 .photoshoots h3, html #services .container-fluid .col-md-4 .props h3, html #services .container-fluid .col-md-4 .editing h3, body #services .container-fluid .col-md-4 .photoshoots h3, body #services .container-fluid .col-md-4 .props h3, body #services .container-fluid .col-md-4 .editing h3 {
+            margin-bottom: 20px; }
+        html #services .container-fluid .col-md-4 img, body #services .container-fluid .col-md-4 img {
+          width: 48px;
+          height: 48px; }
+        html #services .container-fluid .col-md-4 p, body #services .container-fluid .col-md-4 p {
+          width: 300px; }
+  html #order, body #order {
+    position: relative;
+    height: 700px;
+    background-image: url("/lib/img/order.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    html #order .banner2, body #order .banner2 {
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      top: 50%;
+      margin-top: -150px;
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center; }
+      html #order .banner2 h1, body #order .banner2 h1 {
+        color: #fff;
+        padding-top: 50px;
+        font-size: 12px;
+        text-transform: uppercase; }
+      html #order .banner2 p, body #order .banner2 p {
+        color: #fff;
+        font-size: 26px;
+        padding-top: 10px;
+        width: 400px;
+        margin: 0 auto; }
+    html #order .request, body #order .request {
+      border: solid 1px #fff;
+      width: 200px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      html #order .request p, body #order .request p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        width: 200px;
+        padding: 10px; }
