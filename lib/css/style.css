@@ -11,7 +11,7 @@ html, body {
   html #home, body #home {
     position: relative;
     height: 700px;
-    background-image: url("/lib/img/home.jpg");
+    background-image: url("../lib/img/home.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -85,7 +85,7 @@ html, body {
         width: 20px; }
   @media screen and (max-width: 830px) {
     html #home, body #home {
-      background-image: url("/lib/img/home2.jpg");
+      background-image: url("../lib/img/home2.jpg");
       background-position: center top; } }
   html #welcome, body #welcome {
     height: auto;
@@ -117,7 +117,7 @@ html, body {
       height: 50%;
       width: 50%;
       display: inline-block;
-      background-image: url("/lib/img/cakesmash.jpg");
+      background-image: url("../lib/img/cakesmash.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -197,7 +197,7 @@ html, body {
       height: 50%;
       width: 50%;
       display: inline-block;
-      background-image: url("/lib/img/pets.jpg");
+      background-image: url("../lib/img/pets.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -267,7 +267,7 @@ html, body {
       height: 50%;
       width: 50%;
       display: inline-block;
-      background-image: url("/lib/img/newborn.jpg");
+      background-image: url("../lib/img/newborn.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -346,7 +346,7 @@ html, body {
       height: 50%;
       width: 50%;
       display: inline-block;
-      background-image: url("/lib/img/portrait.jpg");
+      background-image: url("../lib/img/portrait.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -468,7 +468,7 @@ html, body {
   html #order, body #order {
     position: relative;
     height: 700px;
-    background-image: url("/lib/img/order.jpg");
+    background-image: url("../lib/img/order.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
