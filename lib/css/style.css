@@ -50,6 +50,11 @@ html, body {
         line-height: 20px;
         font-family: "Roboto";
         display: block; }
+      html #home .nav a:hover, body #home .nav a:hover {
+        color: #ff889c;
+        -webkit-transition: color ease-in .2s;
+        -o-transition: color ease-in .2s;
+        transition: color ease-in .2s; }
     html #home .banner, body #home .banner {
       width: 100%;
       height: 200px;
@@ -140,7 +145,10 @@ html, body {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
         html #projects .cake-smash .box1 h2, body #projects .cake-smash .box1 h2 {
           position: absolute;
           width: 200px;
@@ -191,7 +199,9 @@ html, body {
           margin-left: -200px;
           margin-top: -100px;
           top: 90%;
-          left: 50%; }
+          left: 50%;
+          -webkit-animation-name: slideInUp;
+          animation-name: slideInUp; }
     html #projects .pets, body #projects .pets {
       position: relative;
       height: 50%;
@@ -261,7 +271,9 @@ html, body {
           margin-left: -200px;
           margin-top: -100px;
           top: 90%;
-          left: 50%; }
+          left: 50%;
+          -webkit-animation-name: slideInUp;
+          animation-name: slideInUp; }
     html #projects .newborn, body #projects .newborn {
       position: relative;
       height: 50%;
@@ -289,7 +301,10 @@ html, body {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
         html #projects .newborn .box3 h2, body #projects .newborn .box3 h2 {
           position: absolute;
           width: 200px;
@@ -340,7 +355,9 @@ html, body {
           margin-left: -200px;
           margin-top: -100px;
           top: 90%;
-          left: 50%; }
+          left: 50%;
+          -webkit-animation-name: slideInUp;
+          animation-name: slideInUp; }
     html #projects .portraits, body #projects .portraits {
       position: relative;
       height: 50%;
@@ -368,7 +385,10 @@ html, body {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
         html #projects .portraits .box4 h2, body #projects .portraits .box4 h2 {
           position: absolute;
           width: 200px;
@@ -419,7 +439,9 @@ html, body {
           margin-left: -200px;
           margin-top: -100px;
           top: 90%;
-          left: 50%; }
+          left: 50%;
+          -webkit-animation-name: slideInUp;
+          animation-name: slideInUp; }
   @media screen and (max-width: 440px) {
     html .cake-smash h2, body .cake-smash h2 {
       position: absolute;
@@ -460,6 +482,11 @@ html, body {
           border: solid #666 1px; }
           html #services .container-fluid .col-md-4 .photoshoots h3, html #services .container-fluid .col-md-4 .props h3, html #services .container-fluid .col-md-4 .editing h3, body #services .container-fluid .col-md-4 .photoshoots h3, body #services .container-fluid .col-md-4 .props h3, body #services .container-fluid .col-md-4 .editing h3 {
             margin-bottom: 20px; }
+        html #services .container-fluid .col-md-4 .photoshoots:hover, html #services .container-fluid .col-md-4 .props:hover, html #services .container-fluid .col-md-4 .editing:hover, body #services .container-fluid .col-md-4 .photoshoots:hover, body #services .container-fluid .col-md-4 .props:hover, body #services .container-fluid .col-md-4 .editing:hover {
+          border: solid #ff889c 1px;
+          -webkit-transition: border ease-in .5s;
+          -o-transition: border ease-in .5s;
+          transition: border ease-in .5s; }
         html #services .container-fluid .col-md-4 img, body #services .container-fluid .col-md-4 img {
           width: 48px;
           height: 48px; }
@@ -504,3 +531,13 @@ html, body {
         text-transform: uppercase;
         width: 200px;
         padding: 10px; }
+    html #order .request:hover, body #order .request:hover {
+      border: solid 1px #ff889c;
+      -webkit-transition: all ease-in .5s;
+      -o-transition: all ease-in .5s;
+      transition: all ease-in .5s; }
+      html #order .request:hover p, body #order .request:hover p {
+        color: #ff889c;
+        -webkit-transition: all ease-in .5s;
+        -o-transition: all ease-in .5s;
+        transition: all ease-in .5s; }
