@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 $font: 'Roboto'
+$font-1: 'Open Sans'
 
-h1, h2, h3, h4, h5, h6, p
+h1, h2, h3, h4, h5, h6
     font-family: $font
+
+p
+    font-family: $font-1
+
 
 html, body
     height: 100%
@@ -123,10 +129,10 @@ html, body
             padding: 50px
             
             hr
-                max-width: 250px
+                max-width: 200px
 
             p
-                max-width: 280px
+                max-width: 300px
                 
             
     #projects
@@ -464,6 +470,7 @@ html, body
         
         h1
             text-align: center
+            margin: 50px 0 50px
             
         hr
             width: 300px
@@ -497,6 +504,9 @@ html, body
                     
     @media screen and (max-width: 440px)
         #services
+
+            hr
+                max-width: 200px
             
     #order
         position: relative
@@ -556,16 +566,33 @@ html, body
             
             .banner2
                 
+                
                 p
                     font-size: 20px
                     max-width: 280px
                     white-space: pre-wrap
                     
-                
-                
-            
-
-            
-            
+    #gallery
+        width: 100%
         
+        .container
+            width: 100%
+            padding: 0
+            margin: 0
             
+            ul
+                width: 100%
+                list-style: none
+                verticle-align: top
+                margin: 0 
+                padding: 0
+                
+                li
+                    margin-left: -2px
+                    margin-right: -2px
+                    padding: 0
+                    margin: 0 auto
+
+                    img
+                        max-width: 100%
+                        padding: 3px

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-h1, h2, h3, h4, h5, h6, p {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto"; }
+
+p {
+  font-family: "Open Sans"; }
 
 html, body {
   height: 100%;
@@ -114,9 +118,9 @@ html, body {
     html #welcome, body #welcome {
       padding: 50px; }
       html #welcome hr, body #welcome hr {
-        max-width: 250px; }
+        max-width: 200px; }
       html #welcome p, body #welcome p {
-        max-width: 280px; } }
+        max-width: 300px; } }
   html #projects, body #projects {
     height: 100%;
     width: 100%;
@@ -439,7 +443,8 @@ html, body {
     height: auto;
     margin-top: 100px; }
     html #services h1, body #services h1 {
-      text-align: center; }
+      text-align: center;
+      margin: 50px 0 50px; }
     html #services hr, body #services hr {
       width: 300px;
       border-color: #666; }
@@ -464,6 +469,9 @@ html, body {
         html #services .container-fluid .col-md-4 p, body #services .container-fluid .col-md-4 p {
           font-size: 22px;
           font-weight: 100; }
+  @media screen and (max-width: 440px) {
+    html #services hr, body #services hr {
+      max-width: 200px; } }
   html #order, body #order {
     position: relative;
     height: 700px;
@@ -518,3 +526,23 @@ html, body {
       font-size: 20px;
       max-width: 280px;
       white-space: pre-wrap; } }
+  html #gallery, body #gallery {
+    width: 100%; }
+    html #gallery .container, body #gallery .container {
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      html #gallery .container ul, body #gallery .container ul {
+        width: 100%;
+        list-style: none;
+        verticle-align: top;
+        margin: 0;
+        padding: 0; }
+        html #gallery .container ul li, body #gallery .container ul li {
+          margin-left: -2px;
+          margin-right: -2px;
+          padding: 0;
+          margin: 0 auto; }
+          html #gallery .container ul li img, body #gallery .container ul li img {
+            max-width: 100%;
+            padding: 3px; }
