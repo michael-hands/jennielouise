@@ -91,7 +91,9 @@ html, body {
   @media screen and (max-width: 830px) {
     html #home, body #home {
       background-image: url("../img/home2.jpg");
-      background-position: center top; } }
+      background-position: center top; }
+      html #home .banner .logo img, body #home .banner .logo img {
+        max-width: 300px; } }
   html #welcome, body #welcome {
     height: auto;
     width: 100%;
@@ -111,8 +113,10 @@ html, body {
   @media screen and (max-width: 600px) {
     html #welcome, body #welcome {
       padding: 50px; }
+      html #welcome hr, body #welcome hr {
+        max-width: 250px; }
       html #welcome p, body #welcome p {
-        width: 300px; } }
+        max-width: 280px; } }
   html #projects, body #projects {
     height: 100%;
     width: 100%;
@@ -458,7 +462,8 @@ html, body {
           width: 48px;
           height: 48px; }
         html #services .container-fluid .col-md-4 p, body #services .container-fluid .col-md-4 p {
-          width: 300px; }
+          font-size: 22px;
+          font-weight: 100; }
   html #order, body #order {
     position: relative;
     height: 700px;
@@ -508,3 +513,8 @@ html, body {
         -webkit-transition: all ease-in .5s;
         -o-transition: all ease-in .5s;
         transition: all ease-in .5s; }
+  @media screen and (max-width: 440px) {
+    html #order .banner2 p, body #order .banner2 p {
+      font-size: 20px;
+      max-width: 280px;
+      white-space: pre-wrap; } }
