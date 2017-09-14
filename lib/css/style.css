@@ -147,7 +147,10 @@ html, body {
           background-position: center center;
           background-repeat: no-repeat;
           background-size: cover;
-          text-align: center; }
+          text-align: center;
+          display: inline-block;
+          margin-bottom: -5px;
+          padding: 0; }
           html #projects .container-fluid .col-sm-6 .cake-smash .box1, body #projects .container-fluid .col-sm-6 .cake-smash .box1 {
             position: absolute;
             height: 100%;
